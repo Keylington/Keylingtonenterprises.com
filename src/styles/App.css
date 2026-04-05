@@ -1,0 +1,44 @@
+.app {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #282828; /* carbon color */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #001F3F; /* navy blue */
+}
+
+.button {
+    background-color: #FFD700; /* gold accent */
+    border: none;
+    color: #001F3F;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FFC700;
+}
+
+@media (max-width: 768px) {
+    .app {
+        padding: 10px;
+    }
+}
+
+/* Animation for fading in elements */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
