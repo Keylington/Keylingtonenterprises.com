@@ -1,8 +1,0 @@
-# Node.js
-node_modules/
-
-# Build directory
-build/
-
-# Environment variables
-.env
